@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title> Bootstrap Demo </title><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Century Gothic;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(3.jpg);
+    background-size: auto;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+    </style>
+
+</head>
+<body>
+
+        <nav>
+            <div>
+                <ul class="nav bg-info justify-content-end">
+                    <li class="nav-item"> <a href="#" class="nav-link text-white"> Home </a></li>
+                    <li class="nav-item"> <a href="#" class="nav-link text-white"> About </a></li>
+                    <li class="nav-item"> <a href="#" class="nav-link text-white"> Services </a></li>
+                    <li class="nav-item"> <a href="#" class="nav-link text-white"> Contact Us </a></li>
+                </ul>
+            </div>
+            <br><br><br>
+            <center><h2 class="text-white">Log In</h2></center>
+            <br><br><br>
+        </nav>
+
+        <div class="container text-white">
+            
+            <form action="#">
+                <center>
+                <div class="form-group col-md-6">
+                    <label for="user1">Username:</label>
+                        <input type="text" class="form-control" id="user1" name="username" placeholder="Enter your Username">
+                </div>
+            
+                <div class="form-group col-md-6">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" name="password" placeholder="Enter Your Password">
+                </div>
+
+                <div class="text-white">
+                    <center><label>Forgotten<a href="#"> Password?</a></label></center>
+                </div>
+
+                <div>
+                    <center><button type="button" class="btn btn-info badge-pill">Log in</button>
+                    <button type="button" class="btn btn-success badge-pill">Sign Up</button></center>
+                </div>
+           </center>
+            </form>
+
+            
+<div>
+    <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+</body>
+</html>
